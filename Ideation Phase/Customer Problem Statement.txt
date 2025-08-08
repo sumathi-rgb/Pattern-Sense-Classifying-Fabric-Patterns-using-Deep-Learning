@@ -1,0 +1,38 @@
+📄 Customer Problem Statement
+
+
+
+✏ Purpose:
+Create a clear problem statement from the customer's perspective to deeply understand their challenges and guide the design of meaningful, user-centered solutions.
+
+✅ Customer Problem Statement
+“As a textile business owner, designer, or seller,
+I need a fast, accurate, and automated way to classify fabric patterns,
+because manual classification is slow, subjective, and often inconsistent,
+which leads to errors in product catalogs, delays in listing, and reduced customer satisfaction.”
+
+✅ Why this problem matters to customers:
+Manual tagging takes time, increasing operational costs.
+
+Inconsistent pattern classification confuses buyers and affects brand trust.
+
+Small textile businesses often lack technical teams to automate this process.
+
+✅ Impact on customer’s daily work:
+Wasted time reviewing each image individually.
+
+Difficulty maintaining large, accurate online catalogs.
+
+Limited scalability as product collections grow.
+
+✅ Customer’s goals:
+Speed up cataloging and reduce manual effort.
+
+Ensure consistent, professional product presentation.
+
+Scale operations without hiring more manual staff.
+
+This clear problem statement helps us build
+
+an AI-based solution tailored to solve real user pain points
+— creating a better experience and improving customer satisfaction.
