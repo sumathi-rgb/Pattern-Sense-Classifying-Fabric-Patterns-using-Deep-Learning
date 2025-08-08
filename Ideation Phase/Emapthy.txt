@@ -1,0 +1,19 @@
+Empathize and Discover
+
+
+✅ Empathy Map Canvas
+(based on textile business owners, designers & sellers as target users)
+
+
+|                                  |                                                                                     |
+| -------------------------------- | ----------------------------------------------------------------------------------- |
+| **WHO are we empathizing with?** | Textile designers, small business owners, product catalog managers, online sellers. |
+
+
+
+🎯 GOALS & CHALLENGES
+
+
+| Goals                                                                                                                                  | Challenges                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| - Faster, automated pattern tagging. <br> - Improve consistency & accuracy. <br> - Scale product catalog without increasing team size. | - Manual tagging is subjective and slow. <br> - Risk of human error. <br> - Lack of affordable, domain-specific AI tools. |
