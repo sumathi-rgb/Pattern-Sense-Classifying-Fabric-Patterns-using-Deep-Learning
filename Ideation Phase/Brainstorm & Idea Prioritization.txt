@@ -1,0 +1,63 @@
+Brainstorm & Idea Prioritization
+
+
+|                   |                                                                |
+| ----------------- | -------------------------------------------------------------- |
+| **Date**          | 31 January 2025                                                |
+| **Team ID**       | LTVIP2025TMID37852|
+| **Project Name**  | Pattern Sense: Classifying Fabric Patterns Using Deep Learning |
+                                                      |
+
+
+✅ Step-1: Team Gathering, Collaboration and Select the Problem Statement
+Team members gathered to identify key challenges in the textile industry.
+
+Discussed the problem:
+
+“Manual fabric pattern classification is slow, inconsistent, and subjective, leading to errors and delays in cataloging.”
+
+Selected this as the problem statement to solve with AI.
+
+
+
+✅ Step-2: Brainstorm, Idea Listing and Grouping
+
+
+| Idea Category           | Ideas Generated                                                         |
+| ----------------------- | ----------------------------------------------------------------------- |
+| **Automation**          | Build an AI model to automatically classify fabric patterns from images |
+| **Visualization**       | Create dashboards showing prediction trends and analytics               |
+| **User Experience**     | Design a clean web interface with drag-and-drop upload                  |
+| **Integration**         | Provide API for integration with ERP or e-commerce platforms            |
+| **Social Login**        | Enable quick access via Google/LinkedIn login                           |
+| **Bulk Processing**     | Support batch upload of multiple images                                 |
+| **Confidence Feedback** | Display confidence score to help users trust predictions                |
+
+
+
+Grouped ideas under broader themes:
+
+Core AI functionality
+
+User interface & experience
+
+Business integration
+
+Value-add features
+
+
+✅ Step-3: Idea Prioritization
+
+
+| Idea                                          | Impact | Effort | Priority             |
+| --------------------------------------------- | ------ | ------ | -------------------- |
+| AI model for automatic pattern classification | High   | Medium | **High**             |
+| Web interface (upload & result view)          | High   | Medium | **High**             |
+| Confidence score display                      | Medium | Low    | **Medium**           |
+| Dashboard & history                           | Medium | Medium | **Medium**           |
+| API integration with ERP/e-commerce           | High   | High   | **Medium/Long term** |
+| Social login (Google/LinkedIn)                | Medium | Low    | **Medium**           |
+| Bulk upload feature                           | Medium | Medium | **Medium/Long term** |
+
+
+
