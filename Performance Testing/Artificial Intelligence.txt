@@ -1,0 +1,13 @@
+📄 Project Development Phase
+Model Performance Test
+
+
+✅ Model Performance Testing:
+
+
+
+| S.No. | Parameter                        | Values                                                                                                                                                                                |
+| ----: | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     1 | **Model Summary**                | Convolutional Neural Network (CNN): <br>• Input: 128×128 RGB fabric images <br>• Conv2D + MaxPooling layers <br>• Flatten <br>• Dense layers <br>• Softmax output for pattern classes |
+|     2 | **Accuracy**                     | Training Accuracy – **92%** <br> Validation Accuracy – **88%**                                                                                                                        |
+|     3 | **Fine Tuning Result (if done)** | Validation Accuracy after fine-tuning – **90%**                                                                                                                                       
