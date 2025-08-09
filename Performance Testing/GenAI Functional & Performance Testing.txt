@@ -1,0 +1,15 @@
+📄 Functional & Performance Testing Template
+
+
+✅ Test Scenarios & Results
+
+| Test Case ID | Scenario (What to test)  | Test Steps (How to test)                                                     | Expected Result                                           | Actual Result       | Pass/Fail |
+| ------------ | ------------------------ | ---------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------- | --------- |
+| FT-01        | Image Upload Validation  | Upload valid and invalid image files (e.g., .jpg, .png, unsupported formats) | Accepts valid images; shows error for unsupported formats | As expected         | Pass      |
+| FT-02        | Pattern Prediction       | Upload sample fabric image and submit                                        | Correct pattern class predicted                           | As expected         | Pass      |
+| FT-03        | History View             | Upload image, check if prediction appears in history                         | Record appears correctly in history                       | As expected         | Pass      |
+| FT-04        | Delete History Entry     | Delete a record from history list                                            | Record removed from history                               | As expected         | Pass      |
+| FT-05        | Social Login             | Login with Google or LinkedIn                                                | Dashboard is accessible                                   | As expected         | Pass      |
+| PT-01        | Prediction Response Time | Measure time from upload to prediction                                       | Should be under 2 seconds                                 | Average 1.8 seconds | Pass      |
+| PT-02        | Concurrent Uploads       | Upload multiple images in parallel                                           | System should not slow down or crash                      | Worked smoothly     | Pass      |
+| PT-03        | File Storage Load Test   | Upload many images and observe                                               | System handles storage without crashing                   | As expected         | Pass      |
