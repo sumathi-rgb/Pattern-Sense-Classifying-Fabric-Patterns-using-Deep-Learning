@@ -1,0 +1,7 @@
+✅ Model Performance Testing:
+
+
+| S.No. | Parameter          | Values                                                                                                                                                                                                                                                                      |
+| ----: | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     1 | **Metrics**        | *Classification Model (CNN):* <br>• **Confusion Matrix** – 4×4 matrix showing correct vs predicted classes <br>• **Accuracy Score** – 88% <br>• **Precision, Recall, F1-score** (from Classification Report): <br>  Precision: 0.87 <br>  Recall: 0.88 <br>  F1-score: 0.87 |
+|     2 | **Tune the Model** | • **Hyperparameter Tuning:** <br> – Number of Conv layers, filter sizes, learning rate, batch size <br>• **Validation Method:** <br> – Train/Validation split (80/20) to monitor overfitting and adjust architecture                                                        |
