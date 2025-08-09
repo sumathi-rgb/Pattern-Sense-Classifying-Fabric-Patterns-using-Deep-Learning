@@ -1,0 +1,31 @@
+Project design phase
+
+Date: 18 July 2025
+Team id:LTVIP2025TMID37852
+Project Name: Pattern Sense: Classifying Fabric Patterns Using Deep Learning
+
+✅ Data Flow Diagrams
+A Data Flow Diagram (DFD) shows how data flows through the system, including inputs, processes, data stores, and outputs.
+
+Example: DFD Level 0 (Simplified)
+User uploads fabric image
+
+System preprocesses image
+
+Deep Learning Model predicts pattern class (e.g., floral, geometric, abstract)
+
+Result displayed to User
+
+Optionally, data saved to Pattern Database for future analysis
+
+USER Stories
+
+| User Type              | Functional Requirement (Epic) | User Story Number | User Story / Task                                                  | Acceptance Criteria                         | Priority |  Release |
+| ---------------------- | ----------------------------- | ----------------: | ------------------------------------------------------------------ | ------------------------------------------- | -------: | -------: |
+| Customer (Mobile user) | Registration                  |             USN-1 | As a user, I can register in the app using email and password      | I can access my dashboard after registering |     High | Sprint-1 |
+|                        |                               |             USN-2 | As a user, I receive a confirmation email after registering        | I can click confirm and activate account    |     High | Sprint-1 |
+|                        |                               |             USN-3 | As a user, I can register through Google/Facebook login            | I can access dashboard via social login     |   Medium | Sprint-2 |
+| Login                  |                               |             USN-4 | As a user, I can log in using email/password                       | I can see my dashboard                      |     High | Sprint-1 |
+| Fabric Classification  |                               |             USN-5 | As a user, I can upload an image of fabric to classify its pattern | System shows correct predicted pattern      |     High | Sprint-1 |
+|                        |                               |             USN-6 | As a user, I can view history of my past uploads and predictions   | See previous patterns and dates             |   Medium | Sprint-2 |
+|                        |                               |             USN-7 | As a user, I can delete any past upload record                     | Selected record removed from history        |      Low | Sprint-3 |
