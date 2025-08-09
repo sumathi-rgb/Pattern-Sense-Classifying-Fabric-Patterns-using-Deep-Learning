@@ -1,0 +1,8 @@
+Salesforce
+
+
+| S.No. | Parameter                            | Values                                                                                                                                                                                                                                                                   |
+| ----: | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|     1 | **Model Summary**                    | Convolutional Neural Network (CNN) developed for fabric pattern classification: <br>• Input layer: 128×128 RGB images <br>• Multiple Conv2D + MaxPooling layers <br>• Flatten layer <br>• Dense layers <br>• Softmax output for classes like floral, geometric, abstract |
+|     2 | **Accuracy**                         | • Training Accuracy – **98%** <br>• Validation Accuracy – **98%**                                                                                                                                                                                                        |
+|     3 | **Confidence Score** | Since the model predicts fabric pattern classes: <br>• Model shows confidence score per prediction, e.g., **92% sure** pattern is floral                                                                                                                                 |
