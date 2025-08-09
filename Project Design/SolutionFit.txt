@@ -1,0 +1,21 @@
+|                   |                                                                |
+| ----------------- | -------------------------------------------------------------- |
+| **Date**          | 18 July 2025                                               |
+| **Team ID**       |  LTVIP2025TMID37852        |
+| **Project Name**  | Pattern Sense: Classifying Fabric Patterns Using Deep Learning |
+
+
+
+Problem
+
+
+| **Section**                               | **Details**                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Problem**                               | Manual classification of fabric patterns is time-consuming, inconsistent, and depends heavily on individual judgment. This leads to delays in product cataloging, frequent errors, and affects quality control and customer satisfaction for textile manufacturers, designers, and online sellers. |
+| **Existing Behavior / Current Situation** | Users manually observe each fabric image, tag its pattern type, and enter details into systems. This process is repetitive, subjective, and often misses subtle patterns, especially in large batches of fabrics.                                                                                  |
+| **Customer Needs**                        | - Faster, automated, and accurate fabric pattern classification  <br> - Reduce manual work and human error  <br> - Easy-to-use tool for both technical and non-technical users                                                                                                                     |
+| **Solution**                              | AI-powered web application that uses a trained deep learning (CNN) model to automatically classify fabric images into predefined pattern categories (e.g., floral, geometric, abstract). Provides instant results and maintains a searchable history of uploads.                                   |
+| **How solution fits existing behavior**   | Users continue uploading images as they currently do but skip the manual tagging step — the model automatically predicts and displays the pattern class. This keeps the workflow familiar but significantly faster and more accurate.                                                              |
+| **Expected Benefits**                     | - Reduces processing time and manual effort  <br> - Improves consistency in classification  <br> - Builds trust through reliable AI-driven predictions  <br> - Enhances customer satisfaction and scalability for businesses                                                                       |
+| **Adoption Channels / Communication**     | - Targeted marketing to textile SMEs, designers, and e-commerce sellers  <br> - Integration with existing ERP/catalog systems  <br> - Free demo version and webinars to showcase ease of use and accuracy                                                                                          |
+
