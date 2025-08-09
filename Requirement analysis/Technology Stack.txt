@@ -1,0 +1,50 @@
+Technology Stack (Architecture & Stack)
+
+
+Technical Architecture
+
+Users (Web & Mobile): Upload fabric images to classify.
+
+Front-end (Web UI): Built with HTML, CSS, JavaScript, React.js.
+
+Back-end (API server): Python Flask/Django handles requests, calls ML model.
+
+Machine Learning Model: CNN (Convolutional Neural Network) trained on labeled fabric dataset.
+
+Database: Stores user data, predictions history.
+
+File Storage: Uploaded images stored locally or on cloud.
+
+Deployment: Cloud (e.g., AWS EC2, Azure, or IBM Cloud).
+
+
+Components and Technology
+
+| S.No | Component              | Description                                                | Technology                                                |
+| ---- | ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------- |
+| 1    | User Interface         | Web app and optionally mobile responsive                   | HTML, CSS, JavaScript, React.js                           |
+| 2    | Application Logic-1    | REST APIs, authentication, session management              | Python (Flask / Django)                                   |
+| 3    | Application Logic-2    | Image preprocessing & transformation before classification | OpenCV, Pillow (Python libraries)                         |
+| 4    | Application Logic-3    | Fabric pattern classification                              | TensorFlow / PyTorch trained CNN model                    |
+| 5    | Database               | Stores users, past predictions, logs                       | MySQL / PostgreSQL                                        |
+| 6    | Cloud Database         | Cloud-managed database service (optional)                  | AWS RDS / Azure Database / IBM Cloudant                   |
+| 7    | File Storage           | Store uploaded fabric images                               | AWS S3 / IBM Cloud Object Storage / local filesystem      |
+| 8    | External API-1         | Optional: Fabric pattern database API integration          | (If applicable)                                           |
+| 9    | External API-2         | Optional: Social login APIs                                | Google OAuth, LinkedIn OAuth                              |
+| 10   | Machine Learning Model | Predict fabric pattern class                               | CNN in TensorFlow / PyTorch                               |
+| 11   | Infrastructure         | Cloud or local deployment                                  | AWS EC2, Azure App Service, IBM Cloud, Docker, Kubernetes |
+
+
+
+Application Characteristics
+
+| S.No | Characteristics          | Description                                                                | Technology / Tools                                        |
+| ---- | ------------------------ | -------------------------------------------------------------------------- | --------------------------------------------------------- |
+| 1    | Open-Source Frameworks   | Frameworks & libraries used                                                | React.js, Flask/Django, TensorFlow/PyTorch, OpenCV        |
+| 2    | Security Implementations | Secure authentication, encryption, best practices                          | HTTPS, JWT tokens, bcrypt password hashing, OAuth, IAM    |
+| 3    | Scalable Architecture    | 3-tier architecture: UI + API + ML model backend; optionally microservices | Docker containers, Kubernetes (optional)                  |
+| 4    | Availability             | High availability via cloud deployment, load balancing, redundancy         | AWS ALB, Azure Load Balancer, cloud multi-AZ setup        |
+| 5    | Performance              | Fast response (<2 sec), caching ML model, optimizing image preprocessing   | Redis (caching), CDN, optimized REST APIs, lightweight UI |
+
+
+
