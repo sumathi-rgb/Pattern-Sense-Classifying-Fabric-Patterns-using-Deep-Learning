@@ -1,0 +1,46 @@
+📄 User Acceptance Testing (UAT)
+
+
+|                   |                                                                |
+| ----------------- | -------------------------------------------------------------- |
+| **Date**          | 18 July 2025                                               |
+| **Team ID**       | LTVIP2025TMID37852                                              |
+| **Project Name**  | Pattern Sense: Classifying Fabric Patterns Using Deep Learning |                                           |
+
+✅ Project Overview
+| Parameter                            | Details                                                                                                                                                                                        |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Project Name**                     | Pattern Sense: Classifying Fabric Patterns Using Deep Learning                                                                                                                                 |
+| **Project Description**              | AI-powered web application that automatically classifies fabric patterns (e.g., floral, geometric, abstract) using a deep learning CNN model, and displays predictions with confidence scores. |
+| **Project Version**                  | v1.0                                                                                                                                                                                           |
+| **Testing Period**                   | 01 June 2025 – 25 June 2025                                                                                                                                                            |
+| **Testing Scope**                    | - Image upload and prediction <br> - View history of past uploads <br> - Delete history record <br> - Social login (Google/LinkedIn) <br> - Confidence score display                           |
+| **User Stories/Requirements Tested** | USN-1: Upload image for prediction <br> USN-2: View prediction history <br> USN-3: Delete record <br> USN-4: Login via Google/LinkedIn                                                         |
+|
+
+
+✅ Test Cases
+
+
+| Test Case ID | Test Scenario             | Test Steps                                                   | Expected Result                      | Actual Result               | Pass/Fail |
+| ------------ | ------------------------- | ------------------------------------------------------------ | ------------------------------------ | --------------------------- | --------- |
+| TC-001       | Upload valid fabric image | 1. Login <br> 2. Go to upload page <br> 3. Upload .jpg image | Image accepted and pattern predicted | Worked as expected          | Pass      |
+| TC-002       | Upload unsupported file   | 1. Upload .txt file                                          | Show error message                   | Error message displayed     | Pass      |
+| TC-003       | View history              | 1. Upload image <br> 2. Open history page                    | Recent upload appears in history     | Record visible              | Pass      |
+| TC-004       | Delete history record     | 1. Go to history <br> 2. Click delete                        | Record removed                       | Record deleted successfully | Pass      |
+| TC-005       | Social login              | 1. Click Google login <br> 2. Complete login                 | Redirected to dashboard              | Worked correctly            | Pass      |
+| TC-006       | Confidence score display  | 1. Upload image                                              | Confidence score shown (e.g., 92%)   | Score displayed             | Pass      |
+
+
+
+🐞 Bug Tracking
+
+
+| Bug ID | Bug Description                     | Steps to Reproduce    | Severity | Status | Additional feedback           |
+| ------ | ----------------------------------- | --------------------- | -------- | ------ | ----------------------------- |
+| BG-001 | Occasional slow prediction (>3 sec) | Upload high-res image | Low      | Closed | Optimized image preprocessing |
+
+
+
+
+
