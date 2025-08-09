@@ -1,0 +1,31 @@
+Solution Requirements
+
+Functional Requirements
+
+| FR No. | Functional Requirement (Epic) | Sub Requirement (Story / Sub-Task)                            |
+| ------ | ----------------------------- | ------------------------------------------------------------- |
+| FR-1   | User Registration             | Registration through Form                                     |
+|        |                               | Registration through Gmail                                    |
+|        |                               | Registration through LinkedIn                                 |
+| FR-2   | User Confirmation             | Confirmation via Email                                        |
+|        |                               | Confirmation via OTP                                          |
+| FR-3   | Fabric Pattern Classification | Upload fabric image for classification                        |
+|        |                               | Display predicted pattern (e.g., floral, geometric, abstract) |
+|        |                               | Show confidence score                                         |
+| FR-4   | User History                  | View past uploads and predictions                             |
+|        |                               | Delete past records                                           |
+| FR-5   | Admin Management              | Manage pattern classes (add/edit/delete)                      |
+|        |                               | Manage user accounts (block/unblock)                          |
+
+
+
+Non Functional Requirements
+
+| NFR No. | Non-Functional Requirement | Description                                                                            |
+| ------- | -------------------------- | -------------------------------------------------------------------------------------- |
+| NFR-1   | Usability                  | Simple, intuitive user interface accessible on mobile and web                          |
+| NFR-2   | Security                   | Secure authentication, data encryption, and role-based access control                  |
+| NFR-3   | Reliability                | System handles unexpected errors gracefully; minimal downtime                          |
+| NFR-4   | Performance                | Image classification response time < 2 seconds                                         |
+| NFR-5   | Availability               | System available 24/7 with ≥ 99% uptime                                                |
+| NFR-6   | Scalability                | System can handle increased number of users and images without performance degradation |
