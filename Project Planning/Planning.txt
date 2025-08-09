@@ -1,0 +1,68 @@
+Project Planning
+
+
+| Epic                         | Task (Story)                            | USN   | Story Point |
+| ---------------------------- | --------------------------------------- | ----- | ----------: |
+| **Epic 1: Data Collection**  | Gathering Fabric Images                 | USN-1 |           2 |
+|                              | Loading & Organizing Data               | USN-2 |           1 |
+| **Epic 2: Data Preparation** | Handling Missing or Noisy Images        | USN-3 |           3 |
+|                              | Creating Metadata Fields (Labels, Tags) | USN-4 |           3 |
+|                              | Handling Inconsistencies in Data        | USN-5 |           3 |
+
+
+
+✅ Total Story Points Sprint 1:
+2 + 1 + 3 + 3 + 3 = 12
+
+
+Sprint 2
+
+| Epic                                | Task (Story)                                | USN    | Story Point |
+| ----------------------------------- | ------------------------------------------- | ------ | ----------: |
+| **Epic 3: Model & Visualization**   | Training CNN Model                          | USN-6  |           5 |
+|                                     | Evaluating Model Performance                | USN-7  |           3 |
+|                                     | Visualizing Confusion Matrix & Metrics      | USN-8  |           2 |
+| **Epic 4: Dashboard**               | Developing Web Dashboard (Upload & Predict) | USN-9  |           5 |
+| **Epic 5: Documentation & Testing** | Writing Project Documentation               | USN-10 |           3 |
+|                                     | Testing & Bug Fixes                         | USN-11 |           2 |
+
+
+
+✅ Total Story Points Sprint 2:
+5 + 3 + 2 + 5 + 3 + 2 = 20
+
+
+Summary table
+
+|          | Total Story Points |
+| -------- | -----------------: |
+| Sprint 1 |                 12 |
+| Sprint 2 |                 20 |
+
+
+
+✅ Total story points (Sprint 1 + Sprint 2): 12 + 20 = 32
+
+✅ Number of Sprints: 2
+
+⚡ Velocity Calculation:
+Velocity
+=
+Total Story Points Completed
+Number of Sprints
+=
+32
+2
+=
+16
+Velocity= 
+Number of Sprints
+Total Story Points Completed
+​
+ = 
+2
+32
+​
+ =16
+✅ Team’s velocity: 16 Story Points per Sprint
+
