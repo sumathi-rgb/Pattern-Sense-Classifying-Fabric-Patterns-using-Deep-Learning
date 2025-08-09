@@ -1,0 +1,9 @@
+CUSTOMER JOURNEY MAP
+
+
+| Step                 | Goal / Motivation                            | Positive Moments                       | Negative Moments                      | Opportunities                              |
+| -------------------- | -------------------------------------------- | -------------------------------------- | ------------------------------------- | ------------------------------------------ |
+| Visit app or website | Find a quick way to identify fabric patterns | Easy sign up, clean UI                 | Long registration process             | Simplify registration, add social login    |
+| Upload fabric image  | Get accurate pattern classification          | Fast processing, visually clear result | Model misclassifies or takes too long | Improve model accuracy, progress indicator |
+| View results         | Understand pattern class                     | See detailed prediction                | Lack of explanation                   | Show confidence score & example patterns   |
+| View history         | Track previous uploads                       | Easy access                            | Cluttered history list                | Add search/filter by date or pattern       |
